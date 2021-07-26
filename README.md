@@ -6,8 +6,8 @@ Unaprijeđena skripta.
 
 
 Commands Help file:
-  -h, --help            show this help message and exit
-  -t TARGET, --target TARGET
+  -h, --help            show this help message and exit\n
+  -t TARGET, --target TARGET\n
                         Username nad kojim zelimo izvrsiti skriptu
   -u USER, --user USER  Instagram Username
   -p PASSWORD, --pass PASSWORD
@@ -16,9 +16,9 @@ Commands Help file:
   -l, --like            Like sve slike
   -f, --follow          Odaberi za follow
   
- # TARGET(-t)
-    Instagram username korisnika nad kojem zelimo izvrsiti radnju npr;
-    python3 Main.py -t Cysecor
+ # Target(-t)
+   Instagram username korisnika nad kojem zelimo izvrsiti radnju npr;
+   python3 Main.py -t Cysecor
  # FOLLOW(-f), LIKE(-l)
     
  # USER(-u) i PASSWORD(-p)
