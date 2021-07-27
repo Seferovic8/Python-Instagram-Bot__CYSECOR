@@ -4,18 +4,18 @@ Python Instagram bot
 Unaprijeđena skripta.
 
 
-
-Commands Help file:
+<pre>
+### Help Commands:
   -h, --help            show this help message and exit<br />
   -t TARGET, --target TARGET<br />
-                        Username nad kojim zelimo izvrsiti skriptu<br />
-  -u USER, --user USER  Instagram Username<br />
+                        Username nad kojim zelimo izvrsiti skriptu
+  -u USER, --user USER  Instagram Username
   -p PASSWORD, --pass PASSWORD<br />
-                        Instagram Password<br />
-  --files USERSFILE     Odaberi File za bazu<br />
-  -l, --like            Like sve slike<br />
+                        Instagram Password
+  --files USERSFILE     Odaberi File za bazu
+  -l, --like            Like sve slike
   -f, --follow          Odaberi za follow<br />
-  
+  </pre>
  ## Target(-t)
  <pre>
 Instagram username korisnika nad kojem zelimo izvrsiti radnju npr:<br />
