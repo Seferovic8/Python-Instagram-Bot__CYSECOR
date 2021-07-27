@@ -35,7 +35,17 @@ Login na instagram pomoću ovih podataka primjer:
     (S ovom komandom ćete se loginovati na instagram pomoću username i passworda i automatski zapratiti korisnika(targeta) u ovom slučaju Cysecora i lajkati mu slike)
     
 </pre>
-Automatizovan sistem za login. Izimanje username i passworda iz .txt baze usernameova i passworda.
-Automatski loginovanje pomoću podataka iz baze.
+## --files:
+<pre>
+  Automatizovan sistem za login. Uzimanje username i passworda iz .txt baze usernameova i passworda.
+  Automatski loginovanje pomoću podataka iz baze.
+  Primjer file je users.txt
   
+  python3 main.py --files users.txt -t Cysecor -f -l
+</pre>
  
+# SET SCRIPT
+<pre>
+  U 32. liniji koda morate unesti odgovarajući put(path) do firefoxa.
+  U 33. liniji koda morate unesti odgovarajući put(path) do geckoriver-a
+  </pre>
