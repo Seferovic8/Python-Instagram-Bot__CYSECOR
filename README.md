@@ -20,10 +20,12 @@ Commands Help file:
    Instagram username korisnika nad kojem zelimo izvrsiti radnju npr:<br />
          python3 Main.py -t Cysecor
  # FOLLOW(-f), LIKE(-l)
+ <pre>
    Odabrati opciju Follow(-f) ako želite da korisnika(target) automatski zaprati,<br />
-            Ako je korisnik(target) već followan skripta ga neće un-followati<br />
+      Ako je korisnik(target) već followan skripta ga neće un-followati<br />
    Odabrati opciju like(-l) ako želite da korisniku(target) automatski lajkujete slike
-            Ako su neke slike već lajkovane program ih neće un-lajkati.
+      Ako su neke slike već lajkovane program ih neće un-lajkati.
+ </pre>
  # USER(-u) i PASSWORD(-p)
    Login na instagram pomoću ovih podataka primjer:
    python3 main.py -u your_instagram_username -p your_instagram_password -t Cysecor
