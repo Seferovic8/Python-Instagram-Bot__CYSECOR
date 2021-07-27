@@ -29,8 +29,8 @@ def opcije():
 
 #-----------------------------odabir && start browser---------------------------------------
 odabir = opcije()
-binary = FirefoxBinary('')
-browser = webdriver.Firefox(firefox_binary=binary, executable_path="")
+binary = FirefoxBinary('OVDJE DODAJTE FIREFOX PATH')
+browser = webdriver.Firefox(firefox_binary=binary, executable_path="OVDJE DODAJTE PATH ZA GECKODRIVER")
 browser.implicitly_wait(5)
 browser.get("https://www.instagram.com")
 sleep(3)
