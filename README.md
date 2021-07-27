@@ -5,8 +5,8 @@ Unaprijeđena skripta.
 
 
 <pre>
-### Help Commands:
-  -h, --help            show this help message and exit<br />
+######  Help Commands:
+  -h, --help            show this help message and exit
   -t TARGET, --target TARGET<br />
                         Username nad kojim zelimo izvrsiti skriptu
   -u USER, --user USER  Instagram Username
@@ -14,7 +14,7 @@ Unaprijeđena skripta.
                         Instagram Password
   --files USERSFILE     Odaberi File za bazu
   -l, --like            Like sve slike
-  -f, --follow          Odaberi za follow<br />
+  -f, --follow          Odaberi za follow
   </pre>
  ## Target(-t)
  <pre>
@@ -31,7 +31,7 @@ Instagram username korisnika nad kojem zelimo izvrsiti radnju npr:<br />
  ## USER(-u) i PASSWORD(-p)
 <pre>
 Login na instagram pomoću ovih podataka primjer:
-python3 main.py -u your_instagram_username -p your_instagram_password -t Cysecor
+    python3 main.py -u your_instagram_username -p your_instagram_password -t Cysecor -f -l
 </pre>
 Automatizovan sistem za login. Izimanje username i passworda iz .txt baze usernameova i passworda.
 Automatski loginovanje pomoću podataka iz baze.
