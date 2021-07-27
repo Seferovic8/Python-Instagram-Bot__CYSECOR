@@ -18,27 +18,29 @@ Unaprijeđena skripta.
   </pre>
  ## Target(-t)
  <pre>
-Instagram username korisnika nad kojem zelimo izvrsiti radnju npr:
+Instagram username korisnika nad kojem zelimo izvršiti radnju npr:
     python3 Main.py -t Cysecor
  </pre>
  ## FOLLOW(-f), LIKE(-l)
  <pre>
  Odabrati opciju Follow(-f) ako želite da korisnika(target) automatski zaprati,
-     Ako je korisnik(target) već followan skripta ga neće un-followati
+     Ako je korisnik(target) već followan program ga neće un-followati
  Odabrati opciju like(-l) ako želite da korisniku(target) automatski lajkujete slike
      Ako su neke slike već lajkovane program ih neće un-lajkati.
  </pre>
  ## USER(-u) i PASSWORD(-p)
 <pre>
-Login na instagram pomoću ovih podataka primjer:
+Login na instagram pomoću ovih podataka 
+  Primjer:
     python3 main.py -u your_instagram_username -p your_instagram_password -t Cysecor -f -l   
-    (S ovom komandom ćete se loginovati na instagram pomoću username i passworda i automatski zapratiti korisnika(targeta) u ovom slučaju Cysecora i lajkati mu slike)
+    (S ovom komandom ćete se login-ovati na instagram pomoću username i passworda i automatski zapratiti korisnika(targeta) u ovom slučaju Cysecora i lajkati mu slike)
     
 </pre>
 ## --files:
 <pre>
-  Automatizovan sistem za login. Uzimanje username i passworda iz .txt baze usernameova i passworda.
+  Automatizovan sistem za login. Uzimanje username i passworda iz .txt baze.
   Automatski loginovanje pomoću podataka iz baze.
+  Mogućnost unosa viši broj instagram accountova s istom radnjom.
   Primjer file je users.txt
   
   python3 main.py --files users.txt -t Cysecor -f -l
