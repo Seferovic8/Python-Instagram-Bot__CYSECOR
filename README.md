@@ -1,6 +1,6 @@
 # Python-Instagram-Script__CYSECOR
 Python Instagram bot
-#CYSECOR IZAZOV
+# CYSECOR IZAZOV
 Unaprijeđena skripta.
 
 
