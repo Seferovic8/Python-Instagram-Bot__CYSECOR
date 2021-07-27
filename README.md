@@ -3,9 +3,9 @@ Python Instagram bot
 # CYSECOR IZAZOV
 Unaprijeđena skripta.
 
-
-<pre>
 ###### Help Commands:
+<pre>
+
   -h, --help            show this help message and exit
   -t TARGET, --target TARGET
                         Username nad kojim zelimo izvrsiti skriptu
