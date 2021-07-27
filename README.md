@@ -48,11 +48,11 @@ Login na instagram pomoću ovih podataka primjer:
     Prvo trebate napisati instagram username pa onda zarezom(,) odvojiti i napisati password, nakon toga odvojiti točkom-zarezom(;) i 
     upisati novi account po istom principu:
     
-      <pre>
+      
           your1_instagram_username, your1_instagram_password;
           your2_instagram_username, your2_instagram_password;
           your3_instagram_username, your3_instagram_password;
-      </pre>
+     
    
     
     </pre>
