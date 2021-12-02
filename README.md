@@ -46,7 +46,7 @@ Login na instagram pomoću ovih podataka
   python3 main.py --files users.txt -t Cysecor -f -l
 </pre>
 ## Kako postaviti users.txt file:
-    <pre>
+<pre>
     Prvo trebate napisati instagram username pa onda zarezom(,) odvojiti i napisati password, nakon toga odvojiti točkom-zarezom(;) i 
     upisati novi account po istom principu:
     
@@ -57,7 +57,7 @@ Login na instagram pomoću ovih podataka
      
    
     
-    </pre>
+</pre>
 # SET SCRIPT
 <pre>
   U 32. liniji koda morate unesti odgovarajući put(path) do firefoxa.
